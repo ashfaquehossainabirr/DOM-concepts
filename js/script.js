@@ -54,7 +54,12 @@ x = heading.innerText
 console.log(x)
 
 
-console.log(window.innerWidth + " x " + window.innerHeight)
+// let deviceRes = setInterval(() => {
+//     console.log(`${window.innerWidth} x ${window.innerHeight}`)
+// }, 100)
+
+
+console.log(`${window.innerWidth} x ${window.innerHeight}`)
 
 // window.open() - open a new window
 // window.close() - close the current window
